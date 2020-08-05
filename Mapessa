@@ -1,0 +1,30 @@
+
+import 'package:test/test.dart';
+
+void main(List<String> arguments) {
+
+  var myMap = {
+    1 : 'Mohammed',
+    2 : 'ali',
+    3 : 'osama'
+  };
+
+  var myMap2 = {
+    'employee1' : 'Mohammed',
+    'employee2' : 'ali',
+    'employee3' : 'osama',
+    'employee4' : 'osama'
+  };
+
+  myMap.forEach((key, value) {
+    print('$key $value');
+  });
+
+  myMap2.forEach((key, value) => print('$value $key'));
+
+
+  print(myMap2.keys);
+  print(myMap2.values);
+  print(myMap2['employee4']);
+
+}
