@@ -1,14 +1,13 @@
 import 'dart:math';
+
 main(List<String> arguments) {
+  print('main');
 
+  Random random = Random();
 
-Random random= Random();
+  List<int> myList = [];
 
-
-
-List<int> myList = [];
-
-print(myList.length);
+  print(myList.length);
 
 //for (var i = 0; i < 150; i++) {
 //int myInt = random.nextInt(500);
@@ -21,39 +20,21 @@ print(myList.length);
 //}
 //print(myList.length);
 
-while (myList.length < 150) {
-   int myInt = random.nextInt(500);
+  while (myList.length < 150) {
+    int myInt = random.nextInt(500);
 
-  if ( ! myList.contains(myInt)) {
-    myList.add(myInt);
-  } 
-}
-
+    if (!myList.contains(myInt)) {
+      myList.add(myInt);
+    }
+  }
 
 //var myRinge = myList.getRange(15, 100);
-Iterable<int>  myRinge = myList.getRange(15, 100);
-
+  Iterable<int> myRinge = myList.getRange(15, 100);
 
 //print(myRinge);
-for(var e in myRinge){
-print(e);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  for (var e in myRinge) {
+    print(e);
+  }
 
 /*
 
@@ -265,104 +246,4 @@ print('${a} ${b} ${c}');
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

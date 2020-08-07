@@ -1,6 +1,13 @@
 main(List<String> args) {
+  print('main2');
+  var a = 1;
+  int b = 2;
+  double c = 3;
+  num d = 4;
+  String f = 'Satring';
 
- 
+  print(a + b * c - c);
+
 /*
 
  // تعليق
@@ -77,15 +84,7 @@ print('2 = 4');
 print('5 = 6');
 };
 */
-
-
-
-
-
 }
-
-
-
 
 /*
 variables 1 ✔
